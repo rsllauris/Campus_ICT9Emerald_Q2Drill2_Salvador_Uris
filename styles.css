@@ -1,0 +1,36 @@
+/* General Reset */
+
+body {
+    background-image: url('upd.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    opacity: 0.9;
+    padding: 0;
+    background-color: #FFF2E0;
+    color: #dbacac;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6c2b31;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-links a {
+    color: hsl(30, 43%, 46%);
+    text-decoration: none;
+    font-weight: bold;
+}
